@@ -1,0 +1,35 @@
+{
+  "name": "rollup-plugin-node-resolve-with-sham-ui-macro",
+  "version": "1.0.0",
+  "description": "Rollup plugin for compile sham-ui macro in third-party packages",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro.git"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "sham-ui"
+  ],
+  "author": "Eugeny Burnashov <shamcode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro/issues"
+  },
+  "homepage": "https://github.com/sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro#readme",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@babel/core": "^7.14.0",
+    "find-babel-config": "^1.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup": "^2.47.0"
+  }
+}

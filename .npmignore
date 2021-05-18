@@ -1,0 +1,6 @@
+.gitignore
+.npmignore
+.idea/
+rollup.config.js
+index.js
+yarn-error.log

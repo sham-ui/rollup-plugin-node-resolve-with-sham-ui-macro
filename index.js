@@ -2,7 +2,7 @@ import { transformSync } from '@babel/core';
 import findBabelConfig from 'find-babel-config';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 
-const SHAM_UI_MACRO_PKG = 'sham-ui-macro/babel.macro';
+const SHAM_UI_MACRO_PKG = 'sham-ui-macro/ref.macro';
 
 export default function nodeResolveWithMacro( options ) {
     const originalNodeResolve = nodeResolve( options );
